@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<livescore-feed-document xmlns="http://beybegi.ru/xmlschema.xsd" timestamp_created="1422876739">
+  <matches-list total-count="13">
+    <match id="325dd6fffe37e180bc9d3a94c26ef808" timestamp-starts="1412514300" status="not_started">
+      <contest value="eng_pl"><![CDATA[England - Premier League]]></contest>
+      <teams>
+        <hosts><![CDATA[Tottenham]]></hosts>
+        <guests><![CDATA[Southampton FC]]></guests>
+      </teams>
+    </match>
+    <match id="e027c6edc4a747442607d727b73439ef" timestamp-starts="1412522100" status="finished">
+      <contest value="eng_pl"><![CDATA[England - Premier League]]></contest>
+      <teams>
+        <hosts><![CDATA[West Ham]]></hosts>
+        <guests><![CDATA[QPR]]></guests>
+      </teams>
+      <score><![CDATA[2 - 0]]></score>
+      <match-events>
+
+        <event type="og">
+          <team value="hosts"><![CDATA[West Ham]]></team>
+          <player><![CDATA[Onuoha N.]]></player>
+          <minute><![CDATA[5]]></minute>
+          <score><![CDATA[1 - 0]]></score>
+        </event>
+
+        <event type="yc">
+          <team value="guests"><![CDATA[QPR]]></team>
+          <player><![CDATA[Sandro]]></player>
+          <minute><![CDATA[14]]></minute>
+        </event>
+
+        <event type="yc">
+          <team value="hosts"><![CDATA[West Ham]]></team>
+          <player><![CDATA[Tomkins J.]]></player>
+          <minute><![CDATA[49]]></minute>
+        </event>
+
+        <event type="goal">
+          <team value="hosts"><![CDATA[West Ham]]></team>
+          <player><![CDATA[Sakho D.]]></player>
+          <minute><![CDATA[59]]></minute>
+          <score><![CDATA[2 - 0]]></score>
+        </event>
+
+        <event type="yc">
+          <team value="hosts"><![CDATA[West Ham]]></team>
+          <player><![CDATA[Cresswell A.]]></player>
+          <minute><![CDATA[83]]></minute>
+        </event>
+
+        <event type="yc">
+          <team value="guests"><![CDATA[QPR]]></team>
+          <player><![CDATA[Henry K.]]></player>
+          <minute><![CDATA[89]]></minute>
+        </event>
+      </match-events>
+    </match>
+    <match id="12061dd7aeaa0cec65365c092a94e85b" timestamp-starts="1413632700" status="finished">
+      <contest value="eng_pl"><![CDATA[England - Premier League]]></contest>
+      <teams>
+        <hosts><![CDATA[Man. City]]></hosts>
+        <guests><![CDATA[Tottenham]]></guests>
+      </teams>
+      <score><![CDATA[4 - 1]]></score>
+      <match-events>
+
+        <event type="goal">
+          <team value="hosts"><![CDATA[Man. City]]></team>
+          <player><![CDATA[Agüero S.]]></player>
+          <minute><![CDATA[13]]></minute>
+          <score><![CDATA[1 - 0]]></score>
+        </event>
+
+        <event type="goal">
+          <team value="guests"><![CDATA[Tottenham]]></team>
+          <player><![CDATA[Eriksen C.]]></player>
+          <minute><![CDATA[15]]></minute>
+          <score><![CDATA[1 - 1]]></score>
+        </event>
+
+        <event type="pen">
+          <team value="hosts"><![CDATA[Man. City]]></team>
+          <player><![CDATA[Agüero S. ]]></player>
+          <minute><![CDATA[20]]></minute>
+          <score><![CDATA[2 - 1]]></score>
+        </event>
+
+        <event type="yc">
+          <team value="guests"><![CDATA[Tottenham]]></team>
+          <player><![CDATA[Mason R.]]></player>
+          <minute><![CDATA[33]]></minute>
+        </event>
+
+        <event type="yc">
+          <team value="guests"><![CDATA[Tottenham]]></team>
+          <player><![CDATA[Dier E.]]></player>
+          <minute><![CDATA[37]]></minute>
+        </event>
+
+        <event type="yc">
+          <team value="hosts"><![CDATA[Man. City]]></team>
+          <player><![CDATA[Navas J.]]></player>
+          <minute><![CDATA[55]]></minute>
+        </event>
+
+        <event type="rc">
+          <team value="guests"><![CDATA[Tottenham]]></team>
+          <player><![CDATA[Fazio F.]]></player>
+          <minute><![CDATA[67]]></minute>
+        </event>
+
+        <event type="pen">
+          <team value="hosts"><![CDATA[Man. City]]></team>
+          <player><![CDATA[Agüero S. ]]></player>
+          <minute><![CDATA[68]]></minute>
+          <score><![CDATA[3 - 1]]></score>
+        </event>
+
+        <event type="goal">
+          <team value="hosts"><![CDATA[Man. City]]></team>
+          <player><![CDATA[Agüero S.]]></player>
+          <minute><![CDATA[75]]></minute>
+          <score><![CDATA[4 - 1]]></score>
+        </event>
+      </match-events>
+    </match>
+    <match id="83f25aa8bb3290918248a17d842da83c" timestamp-starts="1413640800" status="finished">
+      <contest value="eng_pl"><![CDATA[England - Premier League]]></contest>
+      <teams>
+        <hosts><![CDATA[Arsenal]]></hosts>
+        <guests><![CDATA[Hull City]]></guests>
+      </teams>
+    </match>
+    <match id="153012f8607d5f9ed16fc443053920fc" timestamp-starts="1413640800" status="active">
+      <contest value="eng_pl"><![CDATA[England - Premier League]]></contest>
+      <teams>
+        <hosts><![CDATA[Burnley]]></hosts>
+        <guests><![CDATA[West Ham]]></guests>
+      </teams>
+      <score><![CDATA[1 - 3]]></score>
+      <match-events>
+
+        <event type="yc">
+          <team value="guests"><![CDATA[West Ham]]></team>
+          <player><![CDATA[Reid W.]]></player>
+          <minute><![CDATA[34]]></minute>
+        </event>
+
+        <event type="goal">
+          <team value="guests"><![CDATA[West Ham]]></team>
+          <player><![CDATA[Sakho D.]]></player>
+          <minute><![CDATA[49]]></minute>
+          <score><![CDATA[0 - 1]]></score>
+        </event>
+
+        <event type="goal">
+          <team value="guests"><![CDATA[West Ham]]></team>
+          <player><![CDATA[Valencia E.]]></player>
+          <minute><![CDATA[54]]></minute>
+          <score><![CDATA[0 - 2]]></score>
+        </event>
+
+        <event type="goal">
+          <team value="hosts"><![CDATA[Burnley]]></team>
+          <player><![CDATA[Boyd G.]]></player>
+          <minute><![CDATA[60]]></minute>
+          <score><![CDATA[1 - 2]]></score>
+        </event>
+
+        <event type="goal">
+          <team value="guests"><![CDATA[West Ham]]></team>
+          <player><![CDATA[Cole C.]]></player>
+          <minute><![CDATA[70]]></minute>
+          <score><![CDATA[1 - 3]]></score>
+        </event>
+      </match-events>
+    </match>
+    <match id="5c7ce608f8d8f4791e1642a6a88d02b6" timestamp-starts="1413640800" status="finished">
+      <contest value="eng_pl"><![CDATA[England - Premier League]]></contest>
+      <teams>
+        <hosts><![CDATA[Crystal Palace]]></hosts>
+        <guests><![CDATA[Chelsea]]></guests>
+      </teams>
+      <score><![CDATA[1 - 2]]></score>
+      <match-events>
+
+        <event type="goal">
+          <team value="guests"><![CDATA[Chelsea]]></team>
+          <player><![CDATA[Oscar]]></player>
+          <minute><![CDATA[6]]></minute>
+          <score><![CDATA[0 - 1]]></score>
+        </event>
+
+        <event type="yc">
+          <team value="hosts"><![CDATA[Crystal Palace]]></team>
+          <player><![CDATA[Delaney D.]]></player>
+          <minute><![CDATA[30]]></minute>
+        </event>
+
+        <event type="rc">
+          <team value="guests"><![CDATA[Chelsea]]></team>
+          <player><![CDATA[Azpilicueta C.]]></player>
+          <minute><![CDATA[40]]></minute>
+        </event>
+
+        <event type="yc">
+          <team value="hosts"><![CDATA[Crystal Palace]]></team>
+          <player><![CDATA[Campbell F.]]></player>
+          <minute><![CDATA[41]]></minute>
+        </event>
+
+        <event type="yc">
+          <team value="guests"><![CDATA[Chelsea]]></team>
+          <player><![CDATA[Fàbregas C.]]></player>
+          <minute><![CDATA[41]]></minute>
+        </event>
+
+        <event type="rc">
+          <team value="hosts"><![CDATA[Crystal Palace]]></team>
+          <player><![CDATA[Delaney D.]]></player>
+          <minute><![CDATA[43]]></minute>
+        </event>
+
+        <event type="goal">
+          <team value="guests"><![CDATA[Chelsea]]></team>
+          <player><![CDATA[Fàbregas C.]]></player>
+          <minute><![CDATA[51]]></minute>
+          <score><![CDATA[0 - 2]]></score>
+        </event>
+
+        <event type="goal">
+          <team value="hosts"><![CDATA[Crystal Palace]]></team>
+          <player><![CDATA[Campbell F.]]></player>
+          <minute><![CDATA[90]]></minute>
+          <score><![CDATA[1 - 2]]></score>
+        </event>
+      </match-events>
+    </match>
+    <match id="c8e5564abc3dc971fbb71f439b39d759" timestamp-starts="1413640800" status="finished">
+      <contest value="eng_pl"><![CDATA[England - Premier League]]></contest>
+      <teams>
+        <hosts><![CDATA[Everton]]></hosts>
+        <guests><![CDATA[Aston Villa]]></guests>
+      </teams>
+      <score><![CDATA[3 - 0]]></score>
+      <match-events>
+
+        <event type="yc">
+          <team value="guests"><![CDATA[Aston Villa]]></team>
+          <player><![CDATA[Richardson K.]]></player>
+          <minute><![CDATA[7]]></minute>
+        </event>
+
+        <event type="goal">
+          <team value="hosts"><![CDATA[Everton]]></team>
+          <player><![CDATA[Jagielka P.]]></player>
+          <minute><![CDATA[18]]></minute>
+          <score><![CDATA[1 - 0]]></score>
+        </event>
+
+        <event type="yc">
+          <team value="guests"><![CDATA[Aston Villa]]></team>
+          <player><![CDATA[Agbonlahor G.]]></player>
+          <minute><![CDATA[36]]></minute>
+        </event>
+
+        <event type="goal">
+          <team value="hosts"><![CDATA[Everton]]></team>
+          <player><![CDATA[Lukaku R.]]></player>
+          <minute><![CDATA[48]]></minute>
+          <score><![CDATA[2 - 0]]></score>
+        </event>
+
+        <event type="yc">
+          <team value="hosts"><![CDATA[Everton]]></team>
+          <player><![CDATA[Barry G.]]></player>
+          <minute><![CDATA[61]]></minute>
+        </event>
+
+        <event type="yc">
+          <team value="hosts"><![CDATA[Everton]]></team>
+          <player><![CDATA[Naismith S.]]></player>
+          <minute><![CDATA[71]]></minute>
+        </event>
+
+        <event type="goal">
+          <team value="hosts"><![CDATA[Everton]]></team>
+          <player><![CDATA[Coleman S.]]></player>
+          <minute><![CDATA[76]]></minute>
+          <score><![CDATA[3 - 0]]></score>
+        </event>
+      </match-events>
+    </match>
+  </matches-list>
+</livescore-feed-document>

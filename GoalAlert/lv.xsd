@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NewDataSet" targetNamespace="http://beybegi.ru/xmlschema.xsd" xmlns:mstns="http://beybegi.ru/xmlschema.xsd" xmlns="http://beybegi.ru/xmlschema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="livescore-feed">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="matches" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="match" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="score" type="xs:string" minOccurs="0" msdata:Ordinal="1" />
+                    <xs:element name="contest" nillable="true" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:simpleContent msdata:ColumnName="contest_Text" msdata:Ordinal="1">
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="value" form="unqualified" type="xs:string" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="teams" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="hosts" type="xs:string" minOccurs="0" />
+                          <xs:element name="guests" type="xs:string" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="match-details" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="period" type="xs:string" minOccurs="0" />
+                          <xs:element name="minute" type="xs:string" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="match-events" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="event" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="player" type="xs:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xs:element name="minute" type="xs:string" minOccurs="0" msdata:Ordinal="2" />
+                                <xs:element name="score" type="xs:string" minOccurs="0" msdata:Ordinal="3" />
+                                <xs:element name="team" nillable="true" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:simpleContent msdata:ColumnName="team_Text" msdata:Ordinal="1">
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute name="value" form="unqualified" type="xs:string" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="type" form="unqualified" type="xs:string" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="id" form="unqualified" type="xs:string" />
+                  <xs:attribute name="timestamp-starts" form="unqualified" type="xs:string" />
+                  <xs:attribute name="status" form="unqualified" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="timestamp_created" form="unqualified" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="livescore-feed" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

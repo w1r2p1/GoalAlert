@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<livescore-feed-document xmlns="http://beybegi.ru/xmlschema.xsd" timestamp_created="1422876739">
+  <matches-list total-count="13">
+    <match id="325dd6fffe37e180bc9d3a94c26ef808" timestamp-starts="1412514300" status="finished">
+      <contest value="eng_pl"><![CDATA[England - Premier League]]></contest>
+      <teams>
+        <hosts><![CDATA[Tottenham]]></hosts>
+        <guests><![CDATA[Southampton FC]]></guests>
+      </teams>
+      <score><![CDATA[1 - 0]]></score>
+      <match-events>
+        <event type="goal">
+          <team value="hosts"><![CDATA[Tottenham]]></team>
+          <player><![CDATA[Eriksen C.]]></player>
+          <minute><![CDATA[40]]></minute>
+          <score><![CDATA[1 - 0]]></score>
+        </event>
+      </match-events>
+    </match>
+  </matches-list>
+</livescore-feed-document>

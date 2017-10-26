@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8edcffc2d04a4e1089d8f6820e4448e7" Name="Diagram1">
+        <EntityTypeShape EntityType="GoalAlertModel.EventLog" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoalAlertModel.Fixture" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoalAlertModel.KeyDB" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoalAlertModel.Notification" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoalAlertModel.PastFixture" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoalAlertModel.Tolerant" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoalAlertModel.UserDB" Width="1.5" PointX="2.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoalAlertModel.League" Width="1.5" PointX="0.75" PointY="2" />
+        <AssociationConnector Association="GoalAlertModel.FK_Fixtures_League" />
+        <EntityTypeShape EntityType="GoalAlertModel.FixtureEvent" Width="1.5" PointX="5.25" PointY="1.375" />
+        <EntityTypeShape EntityType="GoalAlertModel.PastFixtureEvent" Width="1.5" PointX="8.375" PointY="5.75" />
+        <AssociationConnector Association="GoalAlertModel.FK_Events_Fixtures" />
+        <AssociationConnector Association="GoalAlertModel.FK_Events_Noticefication" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
